@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>메인</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <!-- 검색 및 로그인/회원가입/장바구니 -->
+        <div>
+          <!-- 검색 시작 -->
+          <div>
+            <form action="#" method="post" name="search_form">
+              <div>
+                <input
+                  type="text"
+                  name="search"
+                  id="search"
+                  placeholder="검색 할 내용을 입력해주세요."
+                />
+              </div>
+              <div>
+                <input type="submit" value="검색" />
+              </div>
+            </form>
+            <!-- 검색 끝 -->
+          </div>
+
+          <!-- 로그인/회원가입/장바구니 시작 -->
+          <div>
+            <ul>
+              <li>
+                <a href="#">로그인</a>
+              </li>
+              <li>
+                <a href="#">회원가입</a>
+              </li>
+              <li>
+                <a href="#">장바구니</a>
+              </li>
+            </ul>
+          </div>
+          <!-- 로그인/회원가입/장바구니 끝 -->
+        </div>
+
+        <!-- 로고, 주소, 날짜, 인원 시작 -->
+        <div>
+          <img src="https://placeimg.com/200/100/any" alt="로고" />
+
+          <!-- 검색 조건 시작 -->
+          <div>
+            <form action="#" method="post" name="search_form2">
+              <div>
+                <input
+                  type="text"
+                  name="location"
+                  id="location"
+                  placeholder="지역"
+                  required
+                />
+              </div>
+              <div>
+                <input
+                  type="date"
+                  name="check_in"
+                  id="check_in"
+                  placeholder="입실일 선택"
+                  required
+                />
+              </div>
+              <div>
+                <input
+                  type="date"
+                  name="check_out"
+                  id="check_out"
+                  placeholder="퇴실일 선택"
+                  required
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  name="people"
+                  id="people"
+                  placeholder="반려견 수, 투숙객 수"
+                  required
+                />
+              </div>
+              <div>
+                <input type="submit" value="조회" />
+              </div>
+            </form>
+          </div>
+          <!-- 검색 조건 끝 -->
+        </div>
+        <!-- 로고, 주소, 날짜, 인원 끝 -->
+      </header>
+
+      <div>호텔사진</div>
+      <footer>
+        <div class="logo_ft">푸터 로고</div>
+        <div class="left_ft">고객센터</div>
+        <div class="right_ft">회사정보</div>
+      </footer>
+    </div>
+  </body>
+</html>
